@@ -22,6 +22,7 @@ class srcApp_KernelDevDebugContainerUrlGenerator extends Symfony\Component\Routi
             self::$declaredRoutes = array(
         'blog' => array(array(), array('_controller' => 'App\\Controller\\BlogController::index'), array(), array(array('text', '/blog')), array(), array()),
         'home' => array(array(), array('_controller' => 'App\\Controller\\BlogController::home'), array(), array(array('text', '/')), array(), array()),
+        'blog_show' => array(array(), array('_controller' => 'App\\Controller\\BlogController::show'), array(), array(array('text', '/blog/12')), array(), array()),
         '_twig_error_test' => array(array('code', '_format'), array('_controller' => 'twig.controller.preview_error::previewErrorPageAction', '_format' => 'html'), array('code' => '\\d+'), array(array('variable', '.', '[^/]++', '_format', true), array('variable', '/', '\\d+', 'code', true), array('text', '/_error')), array(), array()),
         '_wdt' => array(array('token'), array('_controller' => 'web_profiler.controller.profiler::toolbarAction'), array(), array(array('variable', '/', '[^/]++', 'token', true), array('text', '/_wdt')), array(), array()),
         '_profiler_home' => array(array(), array('_controller' => 'web_profiler.controller.profiler::homeAction'), array(), array(array('text', '/_profiler/')), array(), array()),

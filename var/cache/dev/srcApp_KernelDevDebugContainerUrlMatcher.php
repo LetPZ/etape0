@@ -17,6 +17,7 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
         $this->staticRoutes = array(
             '/blog' => array(array(array('_route' => 'blog', '_controller' => 'App\\Controller\\BlogController::index'), null, null, null, false, false, null)),
             '/' => array(array(array('_route' => 'home', '_controller' => 'App\\Controller\\BlogController::home'), null, null, null, false, false, null)),
+            '/blog/12' => array(array(array('_route' => 'blog_show', '_controller' => 'App\\Controller\\BlogController::show'), null, null, null, false, false, null)),
             '/_profiler' => array(array(array('_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'), null, null, null, true, false, null)),
             '/_profiler/search' => array(array(array('_route' => '_profiler_search', '_controller' => 'web_profiler.controller.profiler::searchAction'), null, null, null, false, false, null)),
             '/_profiler/search_bar' => array(array(array('_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'), null, null, null, false, false, null)),

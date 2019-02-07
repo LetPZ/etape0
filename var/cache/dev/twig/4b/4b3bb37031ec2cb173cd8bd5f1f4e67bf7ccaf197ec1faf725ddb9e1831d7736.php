@@ -78,7 +78,10 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
             <img src=\"http://placehold.it/350x150\" alt=\"\">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum in ab, sed recusandae odio voluptates.</p>
             <p>Dolorum error doloremque obcaecati illo cum nostrum quam ullam rerum, quia adipisci, qui laborum commodi!</p>
-            <a href=\"\" class=\"btn btn-primary\">Lire la suite</a>
+            <a href=\"";
+        // line 15
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("blog_show");
+        echo "\" class=\"btn btn-primary\">Lire la suite</a>
         </div>
     </article>
     <article>
@@ -88,7 +91,10 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
             <img src=\"http://placehold.it/350x150\" alt=\"\">
             <p>Perspiciatis, placeat. In dolores voluptatibus id iste suscipit accusamus ipsam eaque quaerat nam. Odit, atque!</p>
             <p>Incidunt facilis ea animi voluptates, temporibus alias praesentium esse tempore natus nemo enim quia sit?</p>
-            <a href=\"\" class=\"btn btn-primary\">Lire la suite</a>
+            <a href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("blog_show");
+        echo "\" class=\"btn btn-primary\">Lire la suite</a>
         </div>
     </article>
     <article>
@@ -98,7 +104,10 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
             <img src=\"http://placehold.it/350x150\" alt=\"\">
             <p>Ullam impedit officiis debitis iure? Dolorum perferendis iste nam delectus quibusdam sed accusantium assumenda magnam.</p>
             <p>Molestiae deleniti harum minus, sapiente quasi in rerum. Quibusdam cum molestiae, nulla suscipit impedit consequatur?</p>
-            <a href=\"\" class=\"btn btn-primary\">Lire la suite</a>
+            <a href=\"";
+        // line 35
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("blog_show");
+        echo "\" class=\"btn btn-primary\">Lire la suite</a>
         </div>
     </article>
 
@@ -128,7 +137,7 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
 
     public function getDebugInfo()
     {
-        return array (  72 => 6,  63 => 5,  45 => 3,  15 => 1,);
+        return array (  109 => 35,  96 => 25,  83 => 15,  72 => 6,  63 => 5,  45 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -147,7 +156,7 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
             <img src=\"http://placehold.it/350x150\" alt=\"\">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum in ab, sed recusandae odio voluptates.</p>
             <p>Dolorum error doloremque obcaecati illo cum nostrum quam ullam rerum, quia adipisci, qui laborum commodi!</p>
-            <a href=\"\" class=\"btn btn-primary\">Lire la suite</a>
+            <a href=\"{{ path('blog_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
         </div>
     </article>
     <article>
@@ -157,7 +166,7 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
             <img src=\"http://placehold.it/350x150\" alt=\"\">
             <p>Perspiciatis, placeat. In dolores voluptatibus id iste suscipit accusamus ipsam eaque quaerat nam. Odit, atque!</p>
             <p>Incidunt facilis ea animi voluptates, temporibus alias praesentium esse tempore natus nemo enim quia sit?</p>
-            <a href=\"\" class=\"btn btn-primary\">Lire la suite</a>
+            <a href=\"{{ path('blog_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
         </div>
     </article>
     <article>
@@ -167,7 +176,7 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
             <img src=\"http://placehold.it/350x150\" alt=\"\">
             <p>Ullam impedit officiis debitis iure? Dolorum perferendis iste nam delectus quibusdam sed accusantium assumenda magnam.</p>
             <p>Molestiae deleniti harum minus, sapiente quasi in rerum. Quibusdam cum molestiae, nulla suscipit impedit consequatur?</p>
-            <a href=\"\" class=\"btn btn-primary\">Lire la suite</a>
+            <a href=\"{{ path('blog_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
         </div>
     </article>
 
@@ -177,6 +186,6 @@ class __TwigTemplate_292f90a2ef15c1e5dfafef2fdba11fb6f3e0429b05c8505d466f481e33a
 
 </section>
 {% endblock %}
-", "blog/index.html.twig", "C:\\Symfony\\etape0\\etape0\\templates\\blog\\index.html.twig");
+", "blog/index.html.twig", "C:\\Symfony\\etape0\\templates\\blog\\index.html.twig");
     }
 }
